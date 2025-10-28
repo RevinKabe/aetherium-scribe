@@ -1,8 +1,4 @@
-/**
- * Wrangler config for the Cloudflare Durable Object template
- * STRICTLY DO NOT MODIFY THIS FILE - Hidden from AI to prevent breaking core functionality
- */
- {
+{
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "aetherium-scribe-6gegyie-xxi3y4zitia4a",
 	"main": "worker/index.ts",
@@ -28,6 +24,11 @@
         "new_sqlite_classes": [
           "GlobalDurableObject"
         ]
+      }
+    ],
+    "ai_bindings": [
+      {
+        "binding": "AI"
       }
     ]
 }
